@@ -1,0 +1,5 @@
+course(ai).
+course(pl).
+course(os).
+
+have(X,Y) :- course(X),course(Y),not(X = Y).
